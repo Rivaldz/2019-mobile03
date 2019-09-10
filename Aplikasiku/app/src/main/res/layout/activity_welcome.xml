@@ -5,6 +5,24 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
+	android:background="#FFFFFF"
 	tools:context=".WelcomeActivity">
 
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="395dp"
+		android:layout_height="522dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:srcCompat="@drawable/wecome"
+		tools:layout_editor_absoluteY="-140dp" />
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="167dp"
+		android:layout_height="24dp"
+		android:text="@string/welcome"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		tools:layout_editor_absoluteY="236dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

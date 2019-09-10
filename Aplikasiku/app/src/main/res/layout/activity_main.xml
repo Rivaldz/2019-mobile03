@@ -8,8 +8,8 @@
 
 	<ImageView
 		android:id="@+id/imageView2"
-		android:layout_width="46dp"
-		android:layout_height="45dp"
+		android:layout_width="75dp"
+		android:layout_height="82dp"
 		android:layout_marginStart="8dp"
 		android:layout_marginTop="8dp"
 		android:layout_marginEnd="8dp"
@@ -17,18 +17,17 @@
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
-		app:srcCompat="@android:drawable/btn_star" />
+		app:srcCompat="@android:drawable/btn_star"
+		android:contentDescription="TODO" />
 
 	<TextView
 		android:id="@+id/textView"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="Bulog"
 		android:fontFamily="@font/montserrat_semi_bold"
-		android:layout_marginStart="8dp"
-		android:layout_marginTop="8dp"
+		android:text="Bulog"
 		android:textColor="@color/colorPrimaryDark"
-		tools:layout_editor_absoluteX="187dp"
-		tools:layout_editor_absoluteY="410dp" />
+		tools:layout_editor_absoluteX="184dp"
+		tools:layout_editor_absoluteY="422dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

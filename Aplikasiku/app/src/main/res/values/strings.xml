@@ -1,4 +1,5 @@
 <resources>
+	<string name="welcome">Welcome My Application</string>
 	<string name="app_name">Aplikasiku</string>
 	<string name="logo_text">Aplikasiku</string>
 	<string name="sign_in">Sign In</string>
