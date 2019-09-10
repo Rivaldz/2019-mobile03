@@ -118,9 +118,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="213dp"
-        android:layout_height="61dp"
-        android:text="Via Vallen"
+        android:layout_width="259dp"
+        android:layout_height="57dp"
+        android:text="Taylor Swift"
         android:textColor="@color/white"
         android:textSize="20pt"
         app:layout_constraintEnd_toEndOf="parent"
@@ -131,11 +131,11 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Senorita"
+        android:text="Lover"
         android:textColor="@color/white"
         android:textSize="12pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="374dp" />
+        tools:layout_editor_absoluteY="378dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
