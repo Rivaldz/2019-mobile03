@@ -10,12 +10,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="37dp"
-        android:layout_height="35dp"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/menu"
-        tools:layout_editor_absoluteY="30dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002"
+        app:srcCompat="@drawable/menu" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -24,8 +26,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.07999998"
         app:srcCompat="@drawable/current_song_image" />
 
     <ImageView
@@ -55,11 +57,14 @@
         android:id="@+id/imageView6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/wave"
-        tools:layout_editor_absoluteY="457dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.00999999"
+        app:srcCompat="@drawable/wave" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -112,9 +117,13 @@
         android:id="@+id/imageView12"
         android:layout_width="52dp"
         android:layout_height="25dp"
-        app:srcCompat="@drawable/repeat"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="665dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.73"
+        app:srcCompat="@drawable/repeat" />
 
     <TextView
         android:id="@+id/textView"
@@ -123,9 +132,11 @@
         android:text="Taylor Swift"
         android:textColor="@color/white"
         android:textSize="20pt"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="321dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.48000002" />
 
     <TextView
         android:id="@+id/textView2"
@@ -134,8 +145,9 @@
         android:text="Lover"
         android:textColor="@color/white"
         android:textSize="12pt"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="378dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
