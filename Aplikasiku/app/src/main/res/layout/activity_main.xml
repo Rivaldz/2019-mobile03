@@ -7,27 +7,26 @@
 	tools:context=".MainActivity">
 
 	<ImageView
-		android:id="@+id/imageView2"
-		android:layout_width="75dp"
-		android:layout_height="82dp"
-		android:layout_marginStart="8dp"
-		android:layout_marginTop="8dp"
-		android:layout_marginEnd="8dp"
+		android:id="@+id/imageView"
+		android:layout_width="169dp"
+		android:layout_height="172dp"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
-		app:srcCompat="@android:drawable/btn_star"
-		android:contentDescription="TODO" />
+		app:srcCompat="@drawable/ic_logo" />
 
 	<TextView
 		android:id="@+id/textView"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:fontFamily="@font/montserrat_semi_bold"
-		android:text="Bulog"
+		android:layout_width="232dp"
+		android:layout_height="54dp"
+		android:text="DTS BUMN"
 		android:textColor="@color/colorPrimaryDark"
-		tools:layout_editor_absoluteX="184dp"
-		tools:layout_editor_absoluteY="422dp" />
-
+		android:textSize="44dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.498"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/imageView"
+		app:layout_constraintVertical_bias="0.07999998" />
 </androidx.constraintlayout.widget.ConstraintLayout>
